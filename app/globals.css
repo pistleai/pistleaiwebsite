@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
